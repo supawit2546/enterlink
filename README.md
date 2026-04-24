@@ -21,10 +21,30 @@ reduces risks from fake pages or phishing links.
 ## Screenshots
 <img width="1881" height="894" alt="ภาพถ่ายหน้าจอ 2569-04-24 เวลา 21 33 12" src="https://github.com/user-attachments/assets/ad9dc69b-c295-48ae-9027-f027ed246606" />
 
+## Prerequisites
+- Node.js
+- Docker Desktop
+
 ## Getting Started
+1.Clone repo
 ```bash
 git clone https://github.com/supawit2546/enterlink
 cd enterlink
+npm install
+npm run dev
+```
+2. รัน Database
+```bash
+docker compose up -d
+```
+
+3. ตั้งค่า Environment
+```bash
+cp .env.example .env
+```
+
+4. รัน Frontend
+```bash
 npm install
 npm run dev
 ```
