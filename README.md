@@ -38,12 +38,7 @@ npm run dev
 docker compose up -d
 ```
 
-3. ตั้งค่า Environment
-```bash
-cp .env.example .env
-```
-
-4. รัน Frontend
+3. รัน Frontend
 ```bash
 npm install
 npm run dev
